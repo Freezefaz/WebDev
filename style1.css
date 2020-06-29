@@ -1,0 +1,330 @@
+/* Index*/
+body{
+    background-color: #778899;
+    /* background-image: url(image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat; */
+  }
+  /* .container-fluid {
+    border: 0;
+    padding: 0;
+    margin: 0;
+  } */
+  #over {
+    margin: 20px;
+  }
+  #top {
+    /* display: flex; */
+    /* padding: 20px; */
+    background-color: #A9A9A9;
+    padding: 20px;
+    border-radius: 20px;
+    
+  }
+  #mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 10px; */
+    max-width: 500px;
+  }
+  /* potrait */
+  #potrait {
+    display: flex;
+    justify-content: center;
+    /* max-height: 500px; */
+    /* max-width: 400px; */
+    /* background-color: black; */
+    /* border-radius: 50%; */
+    /* align-items: center; */
+    /* margin: 10px; */
+    /* padding: 10px; */
+  }
+  #potrait img {
+    background-image: cover;
+    height: 50vh;
+    /* width: 200px; */
+  
+  }
+  
+  /* title and intro */
+  #title {
+    background-color: #778899;
+    text-align: center;
+    color: white;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: -10%;
+    border-radius: 10px;
+    width: 50%;
+    align-self: center;
+    font-family: 'Merriweather', serif;
+  }
+  #label {
+    display: flex;
+    /* display: block; */
+    /* flex-direction: column; */
+  }
+  #elevator {
+    background-color: #778899;
+    color: white;
+    height: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    /* margin-left: -100px;; */
+    margin-top: 10px;
+    max-width: 400px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  #elevator h3 {
+    font-family: 'Merriweather', serif;
+  }
+  #skills {
+    margin-top: 10px;
+    text-align: center;
+  }
+  #skills i {
+    margin-right: 5px;
+  }
+  
+  /* start of nav */
+  #v-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #v-navbar nav{
+    border: 0;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #A9A9A9;
+    width: auto;
+    border-radius: 10%;
+  }
+  #v-navbar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0px;
+    line-height: 300%;
+  }
+  #v-navbar nav ul li a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+  }
+  
+  /* footer */
+  footer {
+    margin-top: 20px;
+    padding: 20px;
+    background: #A9A9A9;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+    /* makes the phone email and linked in center */
+  .footer-items {
+    display: flex;
+    align-self: center;
+  }
+  #phone i {
+    margin-right: 10px;
+    line-height: 20px;
+  }
+  #email i{
+    margin-right: 10px;
+    line-height: 25px;
+  }
+  .btn  {
+    margin: 10px;
+    background: #778899;
+    align-items: center;
+    color: white;
+    width: 150px;
+    align-self: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .fa {
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%
+  }
+  .fa-linkedin {
+  background: #007bb5;
+  color: white;
+  }
+  /* End of index */
+  
+  /* About me */
+  #h-navbar {
+    background: #A9A9A9;
+    padding: 15px;
+  }
+  #h-navbar a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+  h2, h4 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Merriweather', serif;
+  }
+  #main {
+    color: white;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+  }
+  #attributes {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    text-align: center;
+  }
+  /* 20rem for each div so that they can share screen space */
+  #holland {
+    background: #A9A9A9;
+    padding: 10px;
+    width: 20rem;
+    margin: 5px;
+  }
+  #myers {
+    background: #A9A9A9;
+    padding: 10px;
+    width: 20rem;
+    margin: 5px;
+  }
+  #interest {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+  }
+  #outdoors {
+    background: #A9A9A9;
+    padding: 10px;
+    width: 20rem;
+    margin: 5px;
+  }
+  #running {
+    background: #A9A9A9;
+    padding: 10px;
+    width: 20rem;
+    margin: 5px;
+  
+  }
+  /* Adjust the contents inside the card */
+  card {
+    display: flex;
+    justify-content: center;
+  }
+  figure {
+    align-self: center;
+  }
+  #interest img {
+    height: 350px;
+    width: 275px;
+  }
+  /* End of About me */
+  
+  /* Work Experience */
+  /* carousel section */
+  #work-carousel {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  } 
+  .carousel-image {
+    height: 20vh;
+    /* min-height: 500px; */
+    /* height: 800px;
+    width: 1500px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  #carousel-image1 { 
+    background-image: url(image/semisub.jpg);
+  }
+  #carousel-image2 { 
+    background-image: url(image/drillfloor1.jpg);
+  }
+  #carousel-image3 { 
+    background-image: url(image/drillfloor2.jpg);
+  }
+  #carousel-image4 { 
+    background-image: url(image/work.jpg);
+  }
+  .carousel-caption {
+    padding: 10px;
+    background: rgb(255, 255, 255, 0.5);
+    color: black;
+    font: 1em;
+    /* width: 30%; */
+    font-family: 'Open Sans', sans-serif;
+    /* text-align: center; */
+  }
+  /* main body */
+  #work-ex {
+    flex-direction: column;
+  }
+  #logo {
+    display: flex;
+    justify-content: center;
+  }
+  #logo img {
+    height: auto;
+    width: 500px;
+    padding: 10px;
+  }
+  #description {
+    display: block;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  /* End of work-experience */
+  
+  /* self-development */
+  .self-dev {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .dev-logo {
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+  }
+  .des {
+    padding: 10px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+  #race-logo {
+    background: black;
+    height: 200px;
+  }
+  /* end of self development */
+  
+  /* education */
+  video {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+  
