@@ -1,0 +1,40 @@
+body {
+    background-color: ivory
+}
+#intro {
+    background-color: yellow;
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+
+}
+h1 {
+    color: red;
+    background-color: ivory;
+    font-size: 3em;
+    padding: 10px;
+}
+#comp {
+    background-color: blue;
+    color: yellow;
+    height: 320px;
+    width: 250px;
+    padding: 10px;
+    border: 10px #F53240 solid;
+    margin: auto;
+}
+#selfdev {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    position: relative;
+}
+#proex {
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 3em;
+    text-align: center;
+}
+h3 {
+    color: silver;
+    font-size: 2em;
+}
